@@ -58,27 +58,27 @@ const About = () => {
                 className="mb-4 text-lg font-bold uppercase text-dark/75
               dark:text-light/75"
               >
-                About&nbsp;Me
+                About Me
               </h2>
 
               <p className="font-medium">
-                Hey there, I'm Prasanna – exploring the digital frontiers at
+                Hey there, I&apos;m Prasanna – exploring the digital frontiers at
                 GoPerch as a frontend developer.With a passion for blending
-                aesthetics and functionality, I'm on a mission to craft
+                aesthetics and functionality, I&apos;m on a mission to craft
                 experiences that leave a lasting impression.For me, design is a
                 symphony of problem-solving and creativity, where each pixel
                 tells a story of innovation and user-centricity.
               </p>
 
               <p className="my-4 font-medium">
-                When I'm not coding, you'll find me immersed in the world of
+                When I&apos;m not coding, you&apos;ll find me immersed in the world of
                 art, painting vibrant landscapes that mirror the colors of my
-                imagination. And when the mood strikes, I'm a strategic thinker
+                imagination. And when the mood strikes, I&apos;m a strategic thinker
                 on the chessboard, plotting my next move with finesse.
               </p>
 
               <p className="font-medium">
-                Life's a canvas, and I'm here to paint it with passion and
+                Life&apos;s a canvas, and I&apos;m here to paint it with passion and
                 purpose, one pixel at a time!{" "}
               </p>
             </div>
