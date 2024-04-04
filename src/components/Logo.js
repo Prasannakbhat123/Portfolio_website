@@ -11,11 +11,12 @@ const Logo = () => {
     <div className='flex items-center justify-center mt-2'>
       <MotionLink href="/" 
       className='w-16 h-16 bg-dark text-light flex items-center justify-center 
-      rounded-full text-2xl font-bold '
-      whileHover={{
-        backgroundColor:"#B63E96",
+      rounded-full text-2xl font-bold border border-solid border-transparent dark:border-light
+      hover:bg-primary dark:hover:bg-primaryDark dark:hover:text-dark'
+      // whileHover={{
+      //   backgroundColor:"#00a6fb",
         
-      }}
+      // }}
       >PB</MotionLink>
     </div>
  );
