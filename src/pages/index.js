@@ -22,7 +22,7 @@ export default function Home() {
     
       </Head >
       <TransitionEffect/>
-      <main className='flex items-center text-dark min-h-screen dark:text-light '>
+      <main className='flex items-center text-dark min-h-screen dark:text-light md:pt-16'>
       <Layout className='pt-0 md:pt-16 sm:pt-8'>
       <div className='flex items-center justify-between w-full lg:flex-col'
       priority
@@ -30,7 +30,7 @@ export default function Home() {
       (max-width:1200px) 50vw,
       50vw"
       >
-        <div className='w-1/2 pr-0 md:w-full md:mt-0' >
+        <div className='w-1/2 pr-0 md:w-full' >
           <Image src={profilePic} alt="Prasanna" className='w-full h-auto lg:hidden md:inline-block md:w-full '/>
         </div>
         <div className='w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center'>
