@@ -30,8 +30,8 @@ export default function Home() {
       (max-width:1200px) 50vw,
       50vw"
       >
-        <div className='w-1/2 pr-0 md:w-full' >
-          <Image src={profilePic} alt="Prasanna" className='w-full h-auto lg:hidden md:inline-block md:w-full'/>
+        <div className='w-1/2 pr-0 md:w-full md:mt-0' >
+          <Image src={profilePic} alt="Prasanna" className='w-full h-auto lg:hidden md:inline-block md:w-full '/>
         </div>
         <div className='w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center'>
         
