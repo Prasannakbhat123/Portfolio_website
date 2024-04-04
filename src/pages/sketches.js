@@ -28,7 +28,7 @@ const Sketches = () => {
         </Layout>
       
         <div className=' h-auto flex justify-center items-center'>
-          <Image src={name} className='bg-light w-full ' priority sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 50vw"/>
+          <Image src={name} alt='drawings' className='bg-light w-full ' priority sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 50vw"/>
         </div>
 
         {/* Grid for extra small and medium screens */}
