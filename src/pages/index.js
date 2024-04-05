@@ -23,7 +23,7 @@ export default function Home() {
       </Head >
       <TransitionEffect/>
       <main className='flex items-center text-dark min-h-screen dark:text-light md:pt-0'>
-      <Layout className='pt-0 md:pt-16 sm:pt-0 '>
+      <Layout className='pt-0 md:pt-16 sm:pt-0 sm:w-full '>
       <div className='flex items-center justify-between w-full lg:flex-col'
       priority
       sizes="(max-width:768px) 100vw,
