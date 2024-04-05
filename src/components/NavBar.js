@@ -122,7 +122,7 @@ const NavBar = () => {
       
       <button
       onClick={()=>setMode(mode==="light" ? "dark" : "light")}
-      className={`ml-6 flex items-center justify-center rounded-full p-1
+      className={`ml-6 flex items-center justify-center rounded-full p-1 hidden md:visible
       ${mode==="light" ? "bg-dark text-light": "bg-light text-dark"}`}
       >
 
@@ -150,7 +150,7 @@ const NavBar = () => {
 initial={{scale:0,opacity:0,x:"-50%",y:"-50%"}}
 animate={{scale:1,opacity:1}}
 className='min-w-[70vw] flex flex-col justify-between z-30 items-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-dark/90 dark:bg-light/75 rounded-lg backdrop-blur-md py-32'>
-<nav className='flex items-center flex-col justify-center'>
+<nav className='flex items-center flex-col justify-center relative'>
         <CustomMobileLink href="/" title="Home" className='' toggle={handleClick}/>
         <CustomMobileLink href="/about" title="About" className='' toggle={handleClick}/>
         <CustomMobileLink href="/projects" title="Projects" className=''toggle={handleClick}/>
@@ -161,14 +161,14 @@ className='min-w-[70vw] flex flex-col justify-between z-30 items-center fixed to
         <motion.a href="https://www.linkedin.com/in/prasanna-bhat-b259ba285/" target="_blank"
         whileHover={{y:-2}}
         whileTap={{scale:0.9}}
-        className='w-6 mr-3 sm:mx-1'>
+        className='w-6 mr-3 sm:mx-1.5'>
           <LinkedInIcon/>
         </motion.a>
 
         <motion.a href="https://github.com/Prasannakbhat123/Web-Dev" target="_blank"
          whileHover={{y:-2}}
          whileTap={{scale:0.9}}
-        className='w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1'>
+        className='w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1.5'>
           <GithubIcon/>
         </motion.a>
 
@@ -176,21 +176,21 @@ className='min-w-[70vw] flex flex-col justify-between z-30 items-center fixed to
          whileHover={{y:-2}}
          whileTap={{scale:0.9}}
         className='w-6 mx-3 bg-gradient-to-b from-purple-500 via-red-500 
-        to-yellow-400 rounded-md sm:mx-1'>
+        to-yellow-400 rounded-md sm:mx-1.5'>
         <InstaIcon/>
         </motion.a>
 
         <motion.a href="https://twitter.com/home" target="_blank"
          whileHover={{y:-2}}
          whileTap={{scale:0.9}}
-        className='w-6 ml-3 sm:mx-1'>
+        className='w-6 ml-3 sm:mx-1.5 sm:mr-0'>
           <TwitterIcon/>
         </motion.a>
       
-      
+{/*       
       <button
       onClick={()=>setMode(mode==="light" ? "dark" : "light")}
-      className={`ml-6 flex items-center justify-center rounded-full p-1
+      className={`ml-6 flex items-center justify-center rounded-full p-1 md:ml-3 md:hidden
       ${mode==="light" ? "bg-dark text-light": "bg-light text-dark"}`}
       >
 
@@ -200,7 +200,7 @@ className='min-w-[70vw] flex flex-col justify-between z-30 items-center fixed to
           <SunIcon className={"fill-dark"}/>
           : <MoonIcon className={"fill-dark"}/>
         }
-      </button>
+      </button> */}
 
       </nav>
 </motion.div>
@@ -215,6 +215,19 @@ className='min-w-[70vw] flex flex-col justify-between z-30 items-center fixed to
       <div className='absolute left-[50%] top-2 translate-x-[-50%]'>
         <Logo />
       </div>
+      <button
+      onClick={()=>setMode(mode==="light" ? "dark" : "light")}
+      className={`ml-6 flex items-center justify-center rounded-full p-1 md:ml-3 
+      ${mode==="light" ? "bg-dark text-light": "bg-light text-dark"}`}
+      >
+
+        
+        {
+          mode === 'dark'?
+          <SunIcon className={"fill-dark"}/>
+          : <MoonIcon className={"fill-dark"}/>
+        }
+      </button>
     </header>
   );
 };
