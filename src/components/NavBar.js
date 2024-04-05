@@ -98,7 +98,7 @@ const NavBar = () => {
           <LinkedInIcon/>
         </motion.a>
 
-        <motion.a href="https://github.com/Prasannakbhat123/Web-Dev" target="_blank"
+        <motion.a href="https://github.com/Prasannakbhat123" target="_blank"
          whileHover={{y:-2}}
          whileTap={{scale:0.9}}
         className='w-7 mx-4'>
@@ -112,7 +112,7 @@ const NavBar = () => {
         <InstaIcon/>
         </motion.a>
 
-        <motion.a href="https://twitter.com/home" target="_blank"
+        <motion.a href="https://x.com/Prasannabhat123?t=ZcA6QJsUem832gSTdqsXEQ&s=08" target="_blank"
          whileHover={{y:-2}}
          whileTap={{scale:0.9}}
         className='w-7 ml-4'>
@@ -165,7 +165,7 @@ className='min-w-[70vw] flex flex-col justify-between z-30 items-center fixed to
           <LinkedInIcon/>
         </motion.a>
 
-        <motion.a href="https://github.com/Prasannakbhat123/Web-Dev" target="_blank"
+        <motion.a href="https://github.com/Prasannakbhat123" target="_blank"
          whileHover={{y:-2}}
          whileTap={{scale:0.9}}
         className='w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1.75'>
@@ -180,27 +180,14 @@ className='min-w-[70vw] flex flex-col justify-between z-30 items-center fixed to
         <InstaIcon/>
         </motion.a>
 
-        <motion.a href="https://twitter.com/home" target="_blank"
+        <motion.a href="https://x.com/Prasannabhat123?t=ZcA6QJsUem832gSTdqsXEQ&s=08" target="_blank"
          whileHover={{y:-2}}
          whileTap={{scale:0.9}}
         className='w-6 ml-3 sm:mx-1.75 sm:mr-0'>
           <TwitterIcon/>
         </motion.a>
       
-{/*       
-      <button
-      onClick={()=>setMode(mode==="light" ? "dark" : "light")}
-      className={`ml-6 flex items-center justify-center rounded-full p-1 md:ml-3 md:hidden
-      ${mode==="light" ? "bg-dark text-light": "bg-light text-dark"}`}
-      >
 
-        
-        {
-          mode === 'dark'?
-          <SunIcon className={"fill-dark"}/>
-          : <MoonIcon className={"fill-dark"}/>
-        }
-      </button> */}
 
       </nav>
 </motion.div>
