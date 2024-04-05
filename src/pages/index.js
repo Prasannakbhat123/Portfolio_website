@@ -26,7 +26,7 @@ export default function Home() {
       <Layout className='pt-0 md:pt-16 sm:pt-0 sm:w-full '>
       <div className='flex items-center justify-between w-full lg:flex-col'
       priority
-      sizes="(max-width:768px) 100vw,
+      sizes="(max-width:768px) ,
       (max-width:1200px) 50vw,
       50vw"
       >
