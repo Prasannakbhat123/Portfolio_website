@@ -157,18 +157,18 @@ className='min-w-[70vw] flex flex-col justify-between z-30 items-center fixed to
         <CustomMobileLink href="/sketches" title="Sketches" className=''toggle={handleClick}/>
       </nav>
 
-      <nav className='flex items-center justify-center flex-wrap mt-2'>
+      <nav className='flex items-center justify-center flex-wrap mt-5'>
         <motion.a href="https://www.linkedin.com/in/prasanna-bhat-b259ba285/" target="_blank"
         whileHover={{y:-2}}
         whileTap={{scale:0.9}}
-        className='w-6 mr-3 sm:mx-1.5'>
+        className='w-6 mr-3 sm:mx-1.75'>
           <LinkedInIcon/>
         </motion.a>
 
         <motion.a href="https://github.com/Prasannakbhat123/Web-Dev" target="_blank"
          whileHover={{y:-2}}
          whileTap={{scale:0.9}}
-        className='w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1.5'>
+        className='w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1.75'>
           <GithubIcon/>
         </motion.a>
 
@@ -176,14 +176,14 @@ className='min-w-[70vw] flex flex-col justify-between z-30 items-center fixed to
          whileHover={{y:-2}}
          whileTap={{scale:0.9}}
         className='w-6 mx-3 bg-gradient-to-b from-purple-500 via-red-500 
-        to-yellow-400 rounded-md sm:mx-1.5'>
+        to-yellow-400 rounded-md sm:mx-1.75'>
         <InstaIcon/>
         </motion.a>
 
         <motion.a href="https://twitter.com/home" target="_blank"
          whileHover={{y:-2}}
          whileTap={{scale:0.9}}
-        className='w-6 ml-3 sm:mx-1.5 sm:mr-0'>
+        className='w-6 ml-3 sm:mx-1.75 sm:mr-0'>
           <TwitterIcon/>
         </motion.a>
       
