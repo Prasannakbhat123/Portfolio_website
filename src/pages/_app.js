@@ -7,6 +7,10 @@ import NavBar from '@/components/NavBar';
 import Footer from '@/components/Footer';
 import { AnimatePresence } from 'framer-motion';
 import { useRouter } from 'next/router';
+import { dev } from '$app/environment';
+import { inject } from '@vercel/analytics';
+ 
+inject({ mode: dev ? 'development' : 'production' });
 
 const montserrat = Montserrat({
   subsets: ["latin"],
