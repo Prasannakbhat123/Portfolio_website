@@ -8,12 +8,12 @@ import drawing_2 from "../../public/images/sketches/drawing-2.png";
 import drawing_3 from "../../public/images/sketches/drawing-3.png";
 import drawing_4 from "../../public/images/sketches/drawing-4.png";
 import drawing_5 from "../../public/images/sketches/drawing-5.png";
-import drawing_6 from "../../public/images/sketches/drawing-6.png";
+import drawing_7 from "../../public/images/sketches/drawing-6.png";
 import name from "../../public/images/sketches/name2.png";
 import TransitionEffect from '@/components/TransitionEffect';
 
 const Sketches = () => {
-  const images = [drawing_1, drawing_2, drawing_3, drawing_4, drawing_5, drawing_6];
+  const images = [drawing_1, drawing_2, drawing_3, drawing_4, drawing_5, drawing_7];
 
   return (
     <>

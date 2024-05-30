@@ -11,6 +11,7 @@ import project3 from "../../public/images/projects/glitch.png";
 import project4 from "../../public/images/projects/goperch.png";
 import project5 from "../../public/images/projects/nirvana.png";
 import project6 from "../../public/images/projects/cosmic.png";
+import project7 from "../../public/images/projects/iPhone.png";
 import TransitionEffect from "@/components/TransitionEffect";
 
 const Project = ({ title, type, img, link, github }) => {
@@ -185,6 +186,15 @@ const Projects = () => {
                 link="https://cosmicbytes.netlify.app"
                 type="Project"
                 github="https://github.com/Prasannakbhat123/Cosmicbytes-website"
+              /></div>
+
+            <div className="col-span-12"> <FeaturedProject
+                title="iPhone Clone Website"
+                img={project7}
+                summary="Created a clone of the iPhone 15 Pro website using React, Three.js, and GSAP. The site features an interactive 3D model of the iPhone 15 Pro with smooth animations and responsive design, closely mirroring the official website for an engaging user experience."
+                link="https://iphone-website-clone-six.vercel.app/"
+                type="Featured Project"
+                github="https://github.com/Prasannakbhat123/iPhone_website-clone"
               /></div>
           </div>
         </Layout>
