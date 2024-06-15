@@ -3,7 +3,7 @@ import React, { useEffect, useLayoutEffect, useRef } from "react";
 import AnimatedText from "../components/AnimatedText";
 import Layout from "@/components/Layout";
 import Image from "next/image";
-import profilePic from "../../public/images/profile/pkb-abt.jpg";
+import profilePic from "../../public/images/profile/about.png";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import { Fira_Sans_Extra_Condensed } from "next/font/google";
 import Skills from "@/components/Skills";
