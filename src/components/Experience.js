@@ -3,20 +3,19 @@ import { motion, useScroll } from "framer-motion";
 import LiIcon from "./LiIcon";
 
 const Details = ({ position, company, companyLink, time, address, work }) => {
-
-const ref=useRef(null);
+  const ref = useRef(null);
 
   return (
-    <li ref={ref} className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between md:w-[80%] ">
-
-<LiIcon reference={ref}/>
+    <li
+      ref={ref}
+      className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between md:w-[80%] "
+    >
+      <LiIcon reference={ref} />
 
       <motion.div
-      
-      initial={{y:50}}
-      whileInView={{y:0}}
-      transition={{duration:0.5,type:"spring "}}
-      
+        initial={{ y: 50 }}
+        whileInView={{ y: 0 }}
+        transition={{ duration: 0.5, type: "spring " }}
       >
         <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg">
           {position}&nbsp;{" "}
@@ -45,7 +44,6 @@ const Experience = () => {
     offset: ["start end", "center start"],
   });
 
-
   return (
     <div className="my-64 md:my-16">
       <h2 className="font-bold text-8xl mb-32 width-full text-center md:text-6xl xs:text-4xl md:mb-16">
@@ -64,9 +62,27 @@ const Experience = () => {
             position="Frontend-developer"
             company="GoPerch"
             companyLink="https://www.linkedin.com/company/goperch-in/?originalSubdomain=in"
-            time="2024-Present"
+            time="January-2024-Present"
             address="Manipal, Karnataka"
             work="As a current Frontend Developer at GoPerch, a startup located in Manipal, I am actively involved in the development of responsive websites from the ground up. My role revolves around creating seamless user experiences across both mobile and desktop platforms. By translating design concepts into functional code, I play a vital part in driving the success of our web development projects."
+          />
+
+          <Details
+            position="Web-Developer Intern"
+            company="Thapy"
+            companyLink="https://www.thapy.in/"
+            time="june-october-2024"
+            address="Remote"
+            work="As a Frontend Developer intern at Thapy, I contributed to building the website using React.js and Tailwind CSS. I collaborated closely with backend developers to ensure seamless integration and designed the complete user interface to provide an intuitive user experience."
+          />
+
+          <Details
+            position="Frontend Developer"
+            company="Zodiactech Software IT Services Pvt. Ltd."
+            companyLink="https://zodiac-tech-website.vercel.app"
+            time="2024"
+            address="Freelancing"
+            work="Commissioned to develop the official website for Zodiactech, a prominent software and IT services company. The website was built using React.js and showcases their key projects, services, and expertise in IT solutions, providing an engaging and comprehensive user experience."
           />
 
           <Details
@@ -78,6 +94,25 @@ const Experience = () => {
             work="
             I've developed a dynamic webpage for Glitch, a gaming house in Manipal. It tracks customer playtime, manages food orders, and automates bill generation. This streamlined platform enhances operational efficiency and ensures a seamless experience for both customers and staff.
             "
+          />
+
+<Details
+  position="Web Developer & Management Member"
+  company="Thrust MIT"
+  companyLink="https://www.thrustmit.in" 
+  time="October-2024-Present"
+  address="Manipal, India"
+  work="Serving as a Web Developer and Management Member at Thrust MIT, India's leading student-led rocket team and a top team in Asia. I am currently redesigning the team’s website using React, with the goal of enhancing user experience and showcasing the team’s achievements and projects effectively."
+/>
+
+
+          <Details
+            position="Frontend Developer"
+            company="Nara Constructions"
+            companyLink="https://www.naraconstructions.in/"
+            time="2024"
+            address="Freelancing"
+            work="As a Frontend Developer at Nara Constructions, I developed the website using WordPress and Elementor, focusing on showcasing the company’s tunneling projects across the nation. The site highlights their expertise and includes detailed team profiles to provide visitors with in-depth insights into the company’s capabilities."
           />
 
           <Details

@@ -220,3 +220,26 @@ className='min-w-[70vw] flex flex-col justify-between z-30 items-center fixed to
 };
 
 export default NavBar;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
