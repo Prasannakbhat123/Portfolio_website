@@ -58,6 +58,16 @@ const Experience = () => {
         />
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
+
+        <Details
+  position="Samsung Prism Intern"
+  company="Samsung R&D, Bangalore"
+  companyLink="https://www.linkedin.com/company/samsungrndindiabangalore/posts/?feedView=all"
+  time="November-2024-Present"
+  address="Remote"
+  work="As a Web Developer Intern at Samsung R&D, I am part of a dynamic team responsible for creating and optimizing a web-based platform that facilitates multi-view image segmentation and correction. I collaborate with cross-functional teams to develop software tools that streamline complex image data processing, ensuring seamless integration and user-friendly experiences. My role involves working with modern web technologies to build a responsive and efficient website for research and development purposes."
+/>
+
           <Details
             position="Frontend-developer"
             company="GoPerch"
@@ -89,8 +99,8 @@ const Experience = () => {
             position="Frontend-developer"
             company="Glitch"
             companyLink="https://www.instagram.com/glitch_manipal/"
-            time="Freelancing"
-            address="Manipal, Karnataka"
+            time="2024"
+            address="Freelancing"
             work="
             I've developed a dynamic webpage for Glitch, a gaming house in Manipal. It tracks customer playtime, manages food orders, and automates bill generation. This streamlined platform enhances operational efficiency and ensures a seamless experience for both customers and staff.
             "
