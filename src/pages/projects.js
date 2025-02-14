@@ -14,6 +14,7 @@ import project6 from "../../public/images/projects/cosmic.png";
 import project7 from "../../public/images/projects/iPhone.png";
 import project8 from "../../public/images/projects/zodiactech.png";
 import project9 from "../../public/images/projects/nara.png";
+import project10 from "../../public/images/projects/fineaseai.png";
 import TransitionEffect from "@/components/TransitionEffect";
 
 const Project = ({ title, type, img, link, github }) => {
@@ -143,32 +144,32 @@ const Projects = () => {
               />
             </div>
 
-            <div className="col-span-6 sm:col-span-12">
-            <Project
-                title="GoPerch Home Page"
-                img={project4}
-                summary="Crafted with Next.js and Tailwind CSS, my responsive portfolio website succinctly introduces my skills, projects, and professional journey. Designed for optimal user experience, it showcases my expertise in frontend development while highlighting my commitment to modern design principles."
-                link="https://goperch-home.netlify.app/"
-                type="Project"
-                github="https://github.com/Prasannakbhat123/GoPerch-Home"
-              />
-            </div>
-
             <div className="col-span-6 sm:col-span-12"><Project
-                title="Login / Register Page"
-                img={project2}
-                summary="Crafted with Next.js and Tailwind CSS, my responsive portfolio website succinctly introduces my skills, projects, and professional journey. Designed for optimal user experience, it showcases my expertise in frontend development while highlighting my commitment to modern design principles."
-                link="https://goperch-login.netlify.app"
+                title="Glitch Website"
+                img={project3}
+                summary="Designed a website for Glitch, a gaming house in Manipal. It enables the management team to track entry/exit times, handle food orders, and create invoices for customers, streamlining operations and improving the customer experience."
+                link="https://glitch-entrypage.netlify.app/"
                 type="Project"
-                github="https://github.com/Prasannakbhat123/GoPerch_login"
+                github="https://github.com/Prasannakbhat123/Portfolio_website"
               /></div>
+
+<div className="col-span-6 sm:col-span-12"><Project
+                title="iPhone Clone Website"
+                img={project7}
+                summary="Created a clone of the iPhone 15 Pro website using React, Three.js, and GSAP. The site features an interactive 3D model of the iPhone 15 Pro with smooth animations and responsive design, closely mirroring the official website for an engaging user experience."
+                link="https://iphone-website-clone-six.vercel.app/"
+                type="Project"
+                github="https://github.com/Prasannakbhat123/iPhone_website-clone"
+              /></div>
+
+            
 
 <div className="col-span-12">
   <FeaturedProject
-    title="Zodiactech Website"
-    img={project8}
-    summary="Commissioned to develop the official website for Zodiactech Software IT Services Pvt. Ltd., a prominent software and IT company. The website, built with React.js, highlights their key projects, offered services, and industry expertise, providing a comprehensive overview for potential clients and partners."
-    link="https://zodiac-tech-website.vercel.app/"
+    title="Finease AI"
+    img={project10}
+    summary="Developed a React-based website integrated with Firebase to offer a personalized loan recommendation experience. The platform features custom dashboards that allow users to easily track expenses, EMIs, and loans, providing quick access to important financial data. Additionally, an AI model was integrated to recommend the best loan options based on user-specific criteria, improving decision-making and offering tailored financial solutions."
+    link="https://fineaseai.netlify.app/"
     type="Featured Project"
     github="https://github.com/Prasannakbhat123/zodiac_tech_website"
   />
@@ -207,23 +208,36 @@ const Projects = () => {
 </div>
 
 
-<div className="col-span-6 sm:col-span-12"><Project
-                title="Glitch Website"
-                img={project3}
-                summary="Designed a website for Glitch, a gaming house in Manipal. It enables the management team to track entry/exit times, handle food orders, and create invoices for customers, streamlining operations and improving the customer experience."
-                link="https://glitch-entrypage.netlify.app/"
+<div className="col-span-6 sm:col-span-12">
+            <Project
+                title="GoPerch Home Page"
+                img={project4}
+                summary="Crafted with Next.js and Tailwind CSS, my responsive portfolio website succinctly introduces my skills, projects, and professional journey. Designed for optimal user experience, it showcases my expertise in frontend development while highlighting my commitment to modern design principles."
+                link="https://goperch-home.netlify.app/"
                 type="Project"
-                github="https://github.com/Prasannakbhat123/Portfolio_website"
+                github="https://github.com/Prasannakbhat123/GoPerch-Home"
+              />
+            </div>
+
+            <div className="col-span-6 sm:col-span-12"><Project
+                title="Login / Register Page"
+                img={project2}
+                summary="Crafted with Next.js and Tailwind CSS, my responsive portfolio website succinctly introduces my skills, projects, and professional journey. Designed for optimal user experience, it showcases my expertise in frontend development while highlighting my commitment to modern design principles."
+                link="https://goperch-login.netlify.app"
+                type="Project"
+                github="https://github.com/Prasannakbhat123/GoPerch_login"
               /></div>
 
-<div className="col-span-6 sm:col-span-12"><Project
-                title="iPhone Clone Website"
-                img={project7}
-                summary="Created a clone of the iPhone 15 Pro website using React, Three.js, and GSAP. The site features an interactive 3D model of the iPhone 15 Pro with smooth animations and responsive design, closely mirroring the official website for an engaging user experience."
-                link="https://iphone-website-clone-six.vercel.app/"
-                type="Project"
-                github="https://github.com/Prasannakbhat123/iPhone_website-clone"
-              /></div>
+<div className="col-span-12">
+  <FeaturedProject
+    title="Zodiactech Website"
+    img={project8}
+    summary="Commissioned to develop the official website for Zodiactech Software IT Services Pvt. Ltd., a prominent software and IT company. The website, built with React.js, highlights their key projects, offered services, and industry expertise, providing a comprehensive overview for potential clients and partners."
+    link="https://zodiac-tech-website.vercel.app/"
+    type="Featured Project"
+    github="https://github.com/Prasannakbhat123/zodiac_tech_website"
+  />
+</div>
 
             {/* <div className="col-span-12"> <FeaturedProject
                 title="iPhone Clone Website"

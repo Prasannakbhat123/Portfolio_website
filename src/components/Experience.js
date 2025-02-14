@@ -68,6 +68,16 @@ const Experience = () => {
   work="As a Web Developer Intern at Samsung R&D, I am part of a dynamic team responsible for creating and optimizing a web-based platform that facilitates multi-view image segmentation and correction. I collaborate with cross-functional teams to develop software tools that streamline complex image data processing, ensuring seamless integration and user-friendly experiences. My role involves working with modern web technologies to build a responsive and efficient website for research and development purposes."
 />
 
+<Details
+  position="Fullstack Developer Intern"
+  company="Eventory"
+  companyLink="https://www.eventory.in/"
+  time="Internship"
+  address="Remote"
+  work="
+  Working with the development team to build and enhance various pages in the dashboard and user profiles. Utilizing Next.js, Tailwind CSS, and MongoDB to develop dynamic, responsive web pages. Implemented features for improved user interaction and efficient data handling in the platform. Ensured seamless user experience and optimized performance across the application."
+/>
+
           <Details
             position="Frontend-developer"
             company="GoPerch"
@@ -105,6 +115,17 @@ const Experience = () => {
             I've developed a dynamic webpage for Glitch, a gaming house in Manipal. It tracks customer playtime, manages food orders, and automates bill generation. This streamlined platform enhances operational efficiency and ensures a seamless experience for both customers and staff.
             "
           />
+
+<Details
+  position="Web Developer"
+  company="MIT Manipal Student Council"
+  companyLink="https://www.manipal.edu/mit/mit-experience/student-welfare/student-council---mit--manipal-academy-of-higher-education.html"
+  time="Current"
+  address="Remote"
+  work="
+  Working as a Web Developer with the MIT Manipal Student Council, collaborating on projects aimed at solving various challenges faced by the college community. Developing and maintaining web solutions that address student needs and improve campus life, while ensuring smooth user experiences and functionality."
+/>
+
 
 <Details
   position="Web Developer & Management Member"
