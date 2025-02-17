@@ -169,9 +169,9 @@ const Projects = () => {
     title="Finease AI"
     img={project10}
     summary="Developed a React-based website integrated with Firebase to offer a personalized loan recommendation experience. The platform features custom dashboards that allow users to easily track expenses, EMIs, and loans, providing quick access to important financial data. Additionally, an AI model was integrated to recommend the best loan options based on user-specific criteria, improving decision-making and offering tailored financial solutions."
-    link="https://fineaseai.netlify.app/"
+    link="https://fineasee.netlify.app/"
     type="Featured Project"
-    github="https://github.com/Prasannakbhat123/zodiac_tech_website"
+    github="https://github.com/pandasuvm/fineaseai"
   />
 </div>
 
